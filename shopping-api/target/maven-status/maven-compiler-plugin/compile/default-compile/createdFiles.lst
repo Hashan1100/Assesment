@@ -1,0 +1,12 @@
+org/example/ShoppingApiApplication.class
+org/example/domain/ProductDetails.class
+org/example/ShoppingApiApplication$SystemStartShutdownHandler.class
+org/example/services/ProductService.class
+org/example/domain/PurchaseRequest.class
+org/example/domain/PurchaseResponse.class
+org/example/repo/domain/Product.class
+org/example/repo/ProductRepository.class
+org/example/services/PriceEngineService.class
+org/example/api/ShoppingApiController.class
+org/example/CustomConfiguration.class
+org/example/domain/UnitPrize.class

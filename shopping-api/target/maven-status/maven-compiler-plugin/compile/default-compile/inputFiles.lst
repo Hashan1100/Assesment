@@ -1,0 +1,11 @@
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/domain/UnitPrize.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/repo/domain/Product.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/repo/ProductRepository.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/services/PriceEngineService.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/api/ShoppingApiController.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/domain/PurchaseResponse.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/services/ProductService.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/domain/PurchaseRequest.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/ShoppingApiApplication.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/CustomConfiguration.java
+/uom/apps/Assesment/shopping-api/src/main/java/org/example/domain/ProductDetails.java

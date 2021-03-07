@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>Assesment</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>shopping-api</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <resource.file.location>.</resource.file.location>
+        <resource.concat.dir>target/generated-resources/appassembler/resources</resource.concat.dir>
+        <jsw.assemble.dir>target/generated-resources/appassembler/jsw</jsw.assemble.dir>
+        <appassembler.basedir>target/generated-resources/appassembler/jsw/shopping-api</appassembler.basedir>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.integration</groupId>
+            <artifactId>spring-integration-ip</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <excludes>
+                        <exclude>*.conf</exclude>
+                        <exclude>*.properties</exclude>
+                        <exclude>*.xml</exclude>
+                        <exclude>*.yml</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>appassembler-maven-plugin</artifactId>
+                <version>1.10</version>
+                <executions>
+                    <execution>
+                        <id>generate-jsw-scripts</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>generate-daemons</goal>
+                            <goal>create-repository</goal>
+                        </goals>
+                        <configuration>
+                            <repositoryLayout>flat</repositoryLayout>
+                            <configurationDirectory>conf</configurationDirectory>
+                            <useWildcardClassPath>true</useWildcardClassPath>
+                            <daemons>
+                                <daemon>
+                                    <id>shopping-api</id>
+                                    <wrapperMainClass>org.tanukisoftware.wrapper.WrapperSimpleApp</wrapperMainClass>
+                                    <mainClass>com.example.ShoppingApiApplication</mainClass>
+                                    <commandLineArguments>
+                                        <commandLineArgument>start</commandLineArgument>
+                                    </commandLineArguments>
+                                    <platforms>
+                                        <platform>jsw</platform>
+                                    </platforms>
+                                    <generatorConfigurations>
+                                        <generatorConfiguration>
+                                            <generator>jsw</generator>
+                                            <configuration>
+                                                <property>
+                                                    <name>wrapper.java.additional.1</name>
+                                                    <value>-XX:MaxDirectMemorySize=256M</value>
+                                                </property>
+                                                <property>
+                                                    <name>configuration.directory.in.classpath.first</name>
+                                                    <value>conf</value>
+                                                </property>
+                                                <property>
+                                                    <name>set.default.REPO_DIR</name>
+                                                    <value>lib</value>
+                                                </property>
+                                                <property>
+                                                    <name>wrapper.logfile</name>
+                                                    <value>logs/wrapper.log</value>
+                                                </property>
+                                                <property>
+                                                    <name>wrapper.startup.timeout</name>
+                                                    <value>0</value>
+                                                </property>
+                                                <property>
+                                                    <name>wrapper.ping.timeout</name>
+                                                    <value>60</value>
+                                                </property>
+                                            </configuration>
+                                            <includes>
+                                                <include>linux-x86-32</include>
+                                                <include>linux-x86-64</include>
+                                            </includes>
+                                        </generatorConfiguration>
+                                    </generatorConfigurations>
+                                </daemon>
+                            </daemons>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>make-log-dir</id>
+                        <phase>package</phase>
+                        <configuration>
+                            <tasks>
+                                <mkdir dir="${appassembler.basedir}/logs" />
+                                <mkdir dir="target/shopping-api/logs" />
+
+                                <copy todir="target/shopping-api/bin" overwrite="true">
+                                    <fileset dir="${jsw.assemble.dir}/shopping-api/bin" />
+                                </copy>
+                                <copy todir="target/shopping-api/lib" overwrite="true">
+                                    <fileset dir="${jsw.assemble.dir}/shopping-api/lib" />
+                                </copy>
+                                <copy todir="target/shopping-api/conf">
+                                    <fileset dir="${jsw.assemble.dir}/shopping-api/conf" />
+                                </copy>
+                                <copy todir="target/shopping-api/conf" overwrite="true">
+                                    <fileset dir="src/main/${resource.file.location}/resources" />
+                                    <filterset>
+                                        <filter token="VERSION" value="${project.version}" />
+                                    </filterset>
+                                </copy>
+                                <chmod dir="target/shopping-api/bin" perm="777" includes="**/**" />
+                            </tasks>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

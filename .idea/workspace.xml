@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f4ed3db-99ec-480b-8ffd-163b782c748f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/ProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/purchaseView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopping_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopping_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopping_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shopping_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shopping_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shopping_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="product: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="0e0d9927-6904-47ec-95e2-c5e2162feab5" />
+    </checked>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/shopping-ui" />
+  </component>
+  <component name="ProjectId" id="1pJjtTrBhquwa8C1GPiPPL5hvwa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6655173" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.domain" />
+      <recent name="org.example.api" />
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ShoppingApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ShoppingApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:shopping_db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:shopping_db@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@90c2dbb" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f4ed3db-99ec-480b-8ffd-163b782c748f" name="Default Changelist" comment="" />
+      <created>1614908301071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614908301071</updated>
+      <workItem from="1614908306393" duration="334000" />
+      <workItem from="1614908666470" duration="1423000" />
+      <workItem from="1614910838659" duration="2592000" />
+      <workItem from="1614922218047" duration="2197000" />
+      <workItem from="1614964891558" duration="3373000" />
+      <workItem from="1615011859030" duration="18244000" />
+      <workItem from="1615047948533" duration="4568000" />
+      <workItem from="1615101265259" duration="4792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1958" y="200" key="#Assign_Data_Sources" timestamp="1615014233319">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1958" y="200" key="#Assign_Data_Sources/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615014233319" />
+    <state x="1958" y="200" key="#Project_Structure" timestamp="1614910057838">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1958" y="200" key="#Project_Structure/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1614910057838" />
+    <state x="1823" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615016122369">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1823" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615016122369" />
+    <state x="2171" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1615103834593">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2171" y="226" key="#com.intellij.ide.util.MemberChooser/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615048461067" />
+    <state x="2171" y="226" key="#com.intellij.ide.util.MemberChooser/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615103834593" />
+    <state x="2096" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1614909659828">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2096" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1614909659828" />
+    <state x="2395" y="372" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1615048753887">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2395" y="372" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615048753887" />
+    <state x="2121" y="248" key="#xdebugger.evaluate" timestamp="1615103785324">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2121" y="248" key="#xdebugger.evaluate/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615016734636" />
+    <state x="2121" y="248" key="#xdebugger.evaluate/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615103785324" />
+    <state width="586" height="466" key="DebuggerActiveHint" timestamp="1615016862232">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="586" height="466" key="DebuggerActiveHint/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615016862232" />
+    <state x="2112" y="221" key="ExecutionTargetDialog" timestamp="1615105257698">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2112" y="221" key="ExecutionTargetDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1614922583876" />
+    <state x="2112" y="221" key="ExecutionTargetDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105257698" />
+    <state width="1809" height="288" key="GridCell.Tab.0.bottom" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.0.center" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.center/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.0.center/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.0.center/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.0.left" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.left/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.0.left/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378783" />
+    <state width="1809" height="288" key="GridCell.Tab.0.left/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.0.right" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.0.right/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.0.right/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.0.right/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.1.bottom" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.1.bottom/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758522" />
+    <state width="1809" height="288" key="GridCell.Tab.1.bottom/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.1.bottom/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.1.center" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.1.center/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.1.center/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.1.center/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.1.left" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.1.left/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.1.left/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.1.left/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="288" key="GridCell.Tab.1.right" timestamp="1615105427611">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="288" key="GridCell.Tab.1.right/1366.0.1920.1080/0.154.1366.768@0.154.1366.768" timestamp="1615057758521" />
+    <state width="1809" height="288" key="GridCell.Tab.1.right/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615051378784" />
+    <state width="1809" height="288" key="GridCell.Tab.1.right/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615105427611" />
+    <state width="1809" height="355" key="GridCell.Tab.2.bottom" timestamp="1615104769441">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="355" key="GridCell.Tab.2.bottom/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615041775522" />
+    <state width="1809" height="355" key="GridCell.Tab.2.bottom/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615104769441" />
+    <state width="1809" height="355" key="GridCell.Tab.2.center" timestamp="1615104769441">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="355" key="GridCell.Tab.2.center/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615041775522" />
+    <state width="1809" height="355" key="GridCell.Tab.2.center/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615104769441" />
+    <state width="1809" height="355" key="GridCell.Tab.2.left" timestamp="1615104769441">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="355" key="GridCell.Tab.2.left/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615041775522" />
+    <state width="1809" height="355" key="GridCell.Tab.2.left/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615104769441" />
+    <state width="1809" height="355" key="GridCell.Tab.2.right" timestamp="1615104769441">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="355" key="GridCell.Tab.2.right/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615041775522" />
+    <state width="1809" height="355" key="GridCell.Tab.2.right/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615104769441" />
+    <state x="1846" y="116" key="SettingsEditor" timestamp="1614908778179">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1846" y="116" key="SettingsEditor/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1614908778179" />
+    <state x="1958" y="275" key="Vcs.Push.Dialog.v2" timestamp="1615040962027">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1958" y="275" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615040962027" />
+    <state x="2263" y="436" width="367" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1615014570807">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2263" y="436" width="367" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615014570807" />
+    <state x="2116" y="366" width="484" height="340" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1615014969537">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2116" y="366" width="484" height="340" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615014969537" />
+    <state x="465" y="573" key="com.intellij.ide.util.TipDialog" timestamp="1615101295842">
+      <screen x="0" y="312" width="1366" height="768" />
+    </state>
+    <state x="2019" y="367" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615011869523" />
+    <state x="465" y="573" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615101295842" />
+    <state x="2017" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615102693290">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2017" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615050681038" />
+    <state x="2017" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615102693290" />
+    <state x="2096" y="294" key="extract.method.dialog" timestamp="1615104540541">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2096" y="294" key="extract.method.dialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615049447837" />
+    <state x="2096" y="294" key="extract.method.dialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615104540541" />
+  </component>
+</project>

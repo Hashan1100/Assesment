@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="target/generated-resources/appassembler/jsw/shopping-api/logs"/>
+  <mkdir dir="target/shopping-api/logs"/>
+  <copy todir="target/shopping-api/bin" overwrite="true">
+    <fileset dir="target/generated-resources/appassembler/jsw/shopping-api/bin"/>
+  </copy>
+  <copy todir="target/shopping-api/lib" overwrite="true">
+    <fileset dir="target/generated-resources/appassembler/jsw/shopping-api/lib"/>
+  </copy>
+  <copy todir="target/shopping-api/conf">
+    <fileset dir="target/generated-resources/appassembler/jsw/shopping-api/conf"/>
+  </copy>
+  <copy todir="target/shopping-api/conf" overwrite="true">
+    <fileset dir="src/main/./resources"/>
+    <filterset>
+      <filter value="1.0-SNAPSHOT" token="VERSION"/>
+    </filterset>
+  </copy>
+  <chmod perm="777" includes="**/**" dir="target/shopping-api/bin"/>
+</target>
+</project>
