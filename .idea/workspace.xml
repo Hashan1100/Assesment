@@ -78,7 +78,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/shopping-ui" />
   </component>
   <component name="ProjectId" id="1pJjtTrBhquwa8C1GPiPPL5hvwa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -208,10 +208,18 @@
     </state>
     <state x="2121" y="248" key="#xdebugger.evaluate/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615016734636" />
     <state x="2121" y="248" key="#xdebugger.evaluate/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615103785324" />
+    <state x="1928" y="135" key="CommitChangelistDialog2" timestamp="1615107120627">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1928" y="135" key="CommitChangelistDialog2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107120627" />
     <state width="586" height="466" key="DebuggerActiveHint" timestamp="1615016862232">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state width="586" height="466" key="DebuggerActiveHint/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615016862232" />
+    <state x="1590" y="92" key="DiffContextDialog" timestamp="1615107056433">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1590" y="92" key="DiffContextDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107056433" />
     <state x="2112" y="221" key="ExecutionTargetDialog" timestamp="1615105257698">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -289,10 +297,11 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1846" y="116" key="SettingsEditor/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1614908778179" />
-    <state x="1958" y="275" key="Vcs.Push.Dialog.v2" timestamp="1615040962027">
+    <state x="1958" y="275" key="Vcs.Push.Dialog.v2" timestamp="1615107131645">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1958" y="275" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615040962027" />
+    <state x="1958" y="275" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107131645" />
     <state x="2263" y="436" width="367" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1615014570807">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
