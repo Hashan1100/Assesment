@@ -20,7 +20,7 @@ mvn clean install -DskipTests
 
 ### Shopping UI
 
-* Go to ```shopping-ui/```
+* Go to ```shopping-ui-2```
 * Run ```yarn install```
 
 * Build will be available in ```shopping-api/target/shopping-api```
@@ -35,6 +35,6 @@ mvn clean install -DskipTests
 
 ### Run shopping ui
 
-* Go to ```shopping-ui/```
+* Go to ```shopping-ui-2```
 * Install node modules
 * Run ```yarn start``` 
