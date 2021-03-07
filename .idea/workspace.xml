@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f4ed3db-99ec-480b-8ffd-163b782c748f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/ProductList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/purchaseView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/requests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-api/src/main/java/org/example/ShoppingApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-api/src/main/java/org/example/ShoppingApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-ui" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/shopping-ui" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pJjtTrBhquwa8C1GPiPPL5hvwa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,6 +87,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -101,6 +95,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6655173" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -170,12 +165,35 @@
       <workItem from="1614964891558" duration="3373000" />
       <workItem from="1615011859030" duration="18244000" />
       <workItem from="1615047948533" duration="4568000" />
-      <workItem from="1615101265259" duration="5687000" />
+      <workItem from="1615101265259" duration="6575000" />
     </task>
+    <task id="LOCAL-00001" summary="Shopping ui changes">
+      <created>1615107121635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615107121635</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Shopping ui changes">
+      <created>1615107221971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615107221971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/shopping-ui" />
+      <path value="$PROJECT_DIR$/test/Assesment" />
+    </ignored-roots>
+    <MESSAGE value="Shopping ui changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shopping ui changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1958" y="200" key="#Assign_Data_Sources" timestamp="1615014233319">
@@ -208,10 +226,10 @@
     </state>
     <state x="2121" y="248" key="#xdebugger.evaluate/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615016734636" />
     <state x="2121" y="248" key="#xdebugger.evaluate/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615103785324" />
-    <state x="1928" y="135" key="CommitChangelistDialog2" timestamp="1615107120627">
+    <state x="1928" y="135" key="CommitChangelistDialog2" timestamp="1615107221772">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1928" y="135" key="CommitChangelistDialog2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107120627" />
+    <state x="1928" y="135" key="CommitChangelistDialog2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107221772" />
     <state width="586" height="466" key="DebuggerActiveHint" timestamp="1615016862232">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -293,15 +311,16 @@
     </state>
     <state width="1809" height="355" key="GridCell.Tab.2.right/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615041775522" />
     <state width="1809" height="355" key="GridCell.Tab.2.right/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615104769441" />
-    <state x="1846" y="116" key="SettingsEditor" timestamp="1614908778179">
+    <state x="1846" y="116" key="SettingsEditor" timestamp="1615107678507">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1846" y="116" key="SettingsEditor/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1614908778179" />
-    <state x="1958" y="275" key="Vcs.Push.Dialog.v2" timestamp="1615107131645">
+    <state x="1846" y="116" key="SettingsEditor/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107678507" />
+    <state x="1958" y="275" key="Vcs.Push.Dialog.v2" timestamp="1615107687662">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1958" y="275" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615040962027" />
-    <state x="1958" y="275" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107131645" />
+    <state x="1958" y="275" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615107687662" />
     <state x="2263" y="436" width="367" height="228" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1615014570807">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -310,10 +329,11 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2116" y="366" width="484" height="340" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615014969537" />
-    <state x="465" y="573" key="com.intellij.ide.util.TipDialog" timestamp="1615101295842">
-      <screen x="0" y="312" width="1366" height="768" />
+    <state x="465" y="418" key="com.intellij.ide.util.TipDialog" timestamp="1615108209576">
+      <screen x="0" y="157" width="1366" height="768" />
     </state>
     <state x="2019" y="367" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.154.1366.768@1366.0.1920.1080" timestamp="1615011869523" />
+    <state x="465" y="418" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.157.1366.768@0.157.1366.768" timestamp="1615108209576" />
     <state x="465" y="573" key="com.intellij.ide.util.TipDialog/1366.0.1920.1080/0.312.1366.768@1366.0.1920.1080" timestamp="1615101295842" />
     <state x="2017" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615102693290">
       <screen x="1366" y="0" width="1920" height="1080" />
