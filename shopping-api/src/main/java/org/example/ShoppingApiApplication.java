@@ -20,7 +20,7 @@ public class ShoppingApiApplication {
     }
 
     public static void main(String[] args) {
-        logger.info("Starting network node");
+        logger.info("Starting Shopping API");
         SpringApplication.run(ShoppingApiApplication.class, args);
         logger.info("Started");
     }
@@ -28,12 +28,12 @@ public class ShoppingApiApplication {
     private static class SystemStartShutdownHandler {
         @PostConstruct
         public void startup() {
-            logger.info("node server start up");
+            logger.info("Shopping API start up");
         }
 
         @PreDestroy
         public void shutdown() {
-            logger.info("node server shut down");
+            logger.info("Shopping API shut down");
         }
     }
 

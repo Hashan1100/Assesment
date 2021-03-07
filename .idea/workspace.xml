@@ -5,6 +5,10 @@
       <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/ProductList.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/purchaseView.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shopping-ui/src/ui/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-api/src/main/java/org/example/ShoppingApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-api/src/main/java/org/example/ShoppingApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-ui" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping-ui/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopping-ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-ui/yarn.lock" afterDir="false" />
@@ -74,7 +78,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/shopping-ui" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pJjtTrBhquwa8C1GPiPPL5hvwa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -166,7 +170,7 @@
       <workItem from="1614964891558" duration="3373000" />
       <workItem from="1615011859030" duration="18244000" />
       <workItem from="1615047948533" duration="4568000" />
-      <workItem from="1615101265259" duration="4792000" />
+      <workItem from="1615101265259" duration="5687000" />
     </task>
     <servers />
   </component>
